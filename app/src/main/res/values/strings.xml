@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">certification</string>
+    <string name="checklist">오늘의 체크리스트</string>
+    
+    <string-array name="certification_event">
+        <item>정보처리기능사</item>
+        <item>정보기기운용기능사</item>
+        <item>정보처리산업기사</item>
+        <item>웹디자인기능사</item>
+        <item>전자기기기능사</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/speech_bubble">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보처리기능사"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/ghl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시험 회"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일정"
+        app:layout_constraintStart_toStartOf="@+id/ghl"
+        app:layout_constraintTop_toBottomOf="@+id/ghl" />
+</androidx.constraintlayout.widget.ConstraintLayout>
